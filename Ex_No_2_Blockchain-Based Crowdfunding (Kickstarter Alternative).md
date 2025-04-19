@@ -3,20 +3,18 @@
 To create a decentralized crowdfunding platform where donors contribute funds only if the campaign goal is met.
 
 ## Algorithm:
-A project owner starts a campaign with a funding goal and deadline.
-
-
-Contributors can send ETH to the campaign.
-
-
-If the goal is met before the deadline, funds are released to the project owner.
-
-
-If the goal is not met, contributors can withdraw their funds.
-
-
+1. **Create Campaign** – Deploy smart contract with goal, deadline, and details.  
+2. **Contribute Funds** – Backers send funds to the smart contract.  
+3. **Check Outcome (After Deadline)** –  
+   - If goal met → funds go to creator.  
+   - If goal not met → backers can refund.  
+4. **Withdraw/Refund** – Creator withdraws or backers claim refund.  
+5. **Ensure Transparency** – All actions are logged on blockchain.
 ## Program:
 ```
+Name:Jude Clement Jose G
+Reg no:212224230109
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
@@ -60,20 +58,19 @@ contract Crowdfunding {
     }
 }
 ```
-# Expected Output:
-Users can contribute ETH to the campaign.
+# Output:
+![Screenshot 2025-04-16 094619](https://github.com/user-attachments/assets/16b74a24-7170-4f4c-91fd-ab520ed2c2dc)
+![Screenshot 2025-04-16 094801](https://github.com/user-attachments/assets/ad272de7-9d5b-4bb1-9f99-38ace96cdcb5)
+![Screenshot 2025-04-16 094846](https://github.com/user-attachments/assets/1c8efefb-5b42-4f72-a610-3a34e414676d)
+![Screenshot 2025-04-16 095815](https://github.com/user-attachments/assets/ea1c32f3-3b10-4d92-985b-0e141fac5998)
 
 
-If the goal is met, the creator can withdraw funds.
-
-
-If the goal is not met, contributors can claim a refund.
-
-
-# High-Level Overview:
-Teaches decentralized fundraising.
-
-
-Avoids fraud by ensuring funds are only transferred if the goal is met.
+1. **Successful Campaign**: Goal met, funds released to creator.  
+2. **Unsuccessful Campaign**: Goal not met, backers can claim refunds.  
+3. **Transparent Records**: All contributions and transactions visible on blockchain.  
+4. **No Manual Control**: Smart contract automates fund handling securely.
 
 # RESULT: 
+The result shows whether the campaign succeeded (funds go to creator) or failed (backers get refunds), with all actions transparently recorded on the blockchain.
+
+
