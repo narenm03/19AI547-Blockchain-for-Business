@@ -49,13 +49,10 @@ contract LuxurySupplyChain {
 }
 ```
 # Expected Output:
-A luxury good (e.g., a Rolex watch) is registered on-chain.
-
-
-Ownership is transferred at every checkpoint.
-
-
-Buyers can check the authenticity before purchasing.
+![Screenshot 2025-04-21 060606](https://github.com/user-attachments/assets/56f64054-6121-432f-b42e-6cc3b8962de3)
+![Screenshot 2025-04-21 060714](https://github.com/user-attachments/assets/f9b6cced-59c7-49a7-8f3e-01eaea6a0da2)
+![Screenshot 2025-04-21 061245](https://github.com/user-attachments/assets/e4c8a121-9b32-40ea-a433-82f5a34b2798)
+![Screenshot 2025-04-21 061335](https://github.com/user-attachments/assets/722b9296-c2fe-4aaa-8958-c38c3ee9f0d3)
 
 
 # High-Level Overview:
