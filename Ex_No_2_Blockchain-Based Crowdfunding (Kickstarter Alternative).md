@@ -61,8 +61,7 @@ contract Crowdfunding {
 # Output:
 ![Screenshot 2025-04-16 094619](https://github.com/user-attachments/assets/16b74a24-7170-4f4c-91fd-ab520ed2c2dc)
 ![Screenshot 2025-04-16 094801](https://github.com/user-attachments/assets/ad272de7-9d5b-4bb1-9f99-38ace96cdcb5)
-![Screenshot 2025-04-16 094846](https://github.com/user-attachments/assets/1c8efefb-5b42-4f72-a610-3a34e414676d)
-![Screenshot 2025-04-16 095815](https://github.com/user-attachments/assets/ea1c32f3-3b10-4d92-985b-0e141fac5998)
+
 
 
 1. **Successful Campaign**: Goal met, funds released to creator.  
